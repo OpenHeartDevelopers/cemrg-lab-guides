@@ -8,7 +8,7 @@ nav_order: 2
 
 ```shell
 cd ~/dev/python/
-git clone git@github.com:alonsoJASL/imatools.git
+git clone https://github.com/alonsoJASL/imatools.git
 cd imatools/
 
 conda env create -f environment.yaml

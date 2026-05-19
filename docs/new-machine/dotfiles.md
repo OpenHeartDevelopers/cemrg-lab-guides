@@ -4,11 +4,15 @@ parent: New machine setup
 nav_order: 5
 ---
 
-# Dotfiles — `myconfig`
+# Optional configurations and customisations 
+
+## Dotfiles (`myconfig`)
+
+These are useful config files.
 
 ```shell
 mkdir -p ~/utils
-git clone git@github.com:alonsoJASL/myconfig.git ~/utils/myconfig
+git clone https://github.com/alonsoJASL/myconfig.git ~/utils/myconfig
 cd ~/utils/myconfig
 ```
 
@@ -21,7 +25,7 @@ Wire up each piece:
 - **bashrc**: cherry-pick what you need from `.bashrc` into your own.
 - **Colorscript**: apply the patch (see below).
 
-## Colorscript and wallpapers (optional)
+## Colorscript and wallpapers
 
 ```shell
 mkdir -p ~/.installs
@@ -50,6 +54,8 @@ Set these in your window manager:
 | <kbd>SUPER</kbd>+<kbd>F</kbd>               | Open `pcmanfm`                      |
 
 ## Optional: remove the Ubuntu dock
+
+> It just takes up space! 
 
 ```shell
 sudo apt remove gnome-shell-extension-ubuntu-dock

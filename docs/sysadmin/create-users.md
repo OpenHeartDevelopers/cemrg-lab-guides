@@ -6,11 +6,13 @@ nav_order: 1
 
 # Create a new user on a shared lab machine
 
-Create the account. Arthur recommends `adduser` over `useradd` because it doesn't interfere with the GUI:
+Create the account. If you do not want to interfere with the GUI, then use `adduser` over `useradd` :
 
 ```shell
+# OPTION 1
 sudo adduser <new_username>
-# or, lower-level:
+
+# or, OPTION 2 (lower-level):
 sudo useradd <new_username>
 ```
 
