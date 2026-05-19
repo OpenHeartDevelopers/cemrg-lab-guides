@@ -1,0 +1,25 @@
+title: CEMRG Lab Guides
+description: Internal onboarding and reference guides for the CEMRG group
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
+# just-the-docs settings
+search_enabled: true
+heading_anchors: true
+color_scheme: dark
+
+aux_links:
+  "GitHub":
+    - "//github.com/"  # update with the repo URL once pushed
+
+# Build settings
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
