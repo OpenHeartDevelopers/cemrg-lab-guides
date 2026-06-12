@@ -11,3 +11,4 @@ Recipes for maintaining the lab's shared Linux machines. You'll need `sudo` on t
 - [Create a user](create-users.html)
 - [Lab machine setup (end-to-end)](lab-machine-setup.html) — provision a new shared box from a fresh Ubuntu install
 - [Provision a new machine with Claude Code](setup-via-claude.html) — drive the runbook hands-off using Claude Code
+- [Lab roster (machine access)](lab-roster.html) — who has accounts on which shared box
